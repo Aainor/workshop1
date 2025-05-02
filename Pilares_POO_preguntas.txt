@@ -1,0 +1,18 @@
+Pregunta teórica:
+¿Cuáles son los 4 pilares de la programación orientada a objetos y qué aporta cada uno?
+    -Los pilares de POO son los principios fundamentales que estructuran cómo se diseñan y organizan los programas dentro de este paradigma. Son cuatro, llamados Encapsulamiento, Abstracción, Herencia y Polimorfismo.
+    El Encapsulamiento es el principio que permite agrupar en un mismo lugar los datos (atributos) y las operaciones que los manipulan (métodos). Además, oculta la implementación interna de los objetos y controla cómo otros componentes pueden acceder a esa información.
+    La Abstracción es la capacidad de enfocarse en los aspectos esenciales de un objeto, ignorando los detalles innecesarios. Esto permite que los programas sean más claros, flexibles y adaptables.
+    La Herencia es el pilar que permite que una clase pueda derivarse de otra, heredando su comportamiento y características. Facilita la reutilización del código y permite construir jerarquías lógicas entre clases, haciendo que los modelos sean más organizados y coherentes.
+    El Polimorfismo sucede cuando distintos objetos pueden responder de forma diferente al mismo mensaje o método, según su tipo específico. Esto permite que se puedan usar funciones o clases genéricas que trabajen con distintos tipos de objetos de forma flexible, sin preocuparse por los detalles específicos de cada uno.
+
+✅Mini autoevaluación
+
+1. ¿Cuál es la diferencia entre encapsulamiento y abstracción?
+    -El Encapsulamiento protege los datos internos de un objeto y controla el acceso a ellos mediante métodos públicos, mientras que la Abstracción oculta la complejidad mostrando solo lo necesario para interactuar con el objeto.
+2. ¿Qué pilar permite a las subclases sobrescribir métodos?
+    -El pilar que permite a las subclases sobrescribir métodos es la Herencia, porque permite que una subclase reciba métodos de la superclase y los sobrescriba para modificar su comportamiento.
+
+Reflexión individual
+¿Qué pilar sentís que dominás mejor? ¿Cuál te cuesta más aplicar en la práctica?
+    -Siento que el pilar que mejor manejo es la Herencia, porque se me hace fácil pensar en cómo una clase puede heredar cosas de otra y usarlas directamente sin tener que volver a escribir todo. En cambio, el que más me cuesta aplicar en la práctica es el polimorfismo, porque si bien entiendo la teoría, a veces me resulta difícil pensar en ejemplos concretos donde usarlo sin complicar más el código.

@@ -1,0 +1,22 @@
+Pregunta teórica:
+¿Qué es un decorador en Python y para qué se utiliza comúnmente?
+
+    - Un decorador en Python es un tipo especial de función que recibe otra función como argumento y devuelve una función nueva que, por lo general, es una versión extendida o modificada del comportamiento original.
+    Los decoradores son especialmente útiles cuando queremos aplicar una misma acción antes o después de muchas funciones, como por ejemplo:
+        -validar datos de entrada
+        -registrar información de uso (logs)
+        -medir el tiempo de ejecución
+        -manejar errores automáticamente
+
+✅Mini autoevaluación
+
+1. ¿Como se aplica a una función?
+    -El decorador se aplica ubicando el símbolo @ sobre la definición de la función.
+2. ¿Qué función interna suele tener un decorador?
+    -Un decorador suele tener una función interna conocida como wrapper, que actua como envoltorio de la función original. Esta función se encarga de ejecutar lógica adicional antes o después de la función decorada, sin modificar su código.
+
+Reflexión individual
+¿Qué otras funciones de Python conocés que usan decoradores? ¿Te gustaría usarlos en tus
+propios proyectos?
+    -Por ahora conozco algunos decoradores que se usan dentro de clases, como @staticmethod y @property. 
+    Me gustaría usarlos más seguido en mis proyectos, sobre todo porque hacen que el código se vea más limpio y fácil de mantener. Me parecen útiles porque ayudan a organizar mejor el código y escribir métodos que no dependen directamente de los datos de una instancia. 
